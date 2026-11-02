@@ -1,4 +1,4 @@
-# appendix-com
+# Appendix
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-appendix-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://appendix.com/
+Appendix provides a physician‑review API that lets AI agents and applications submit health queries for board‑certified doctor evaluation, including e‑prescribing when appropriate. The service offers a human‑in‑the‑loop experience, handling patient consent, identity verification, and delivering clinical assessments via webhooks, enabling developers to build health‑focused AI products with real medical oversight.
+
+**Areas:** Healthcare · AI · API · Telemedicine · PhysicianReview
+
+## Appendix on APIs.io
+
+Everything profiled for Appendix is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/appendix-com/](https://apis.io/providers/appendix-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Appendix api reference API](https://apis.io/apis/appendix-com/api-reference-api/) — Appendix api reference API as documented publicly: 24 operations. Contract generated from the documentation by API Evangelist (2026-11-01); not the…
+- [Appendix core API](https://apis.io/apis/appendix-com/core-api/) — Appendix core API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-11-01); not the provider's own…
+- [Appendix Prescribing API Overview API](https://apis.io/apis/appendix-com/prescribing-api/) — Appendix Prescribing API Overview API as documented publicly: 13 operations. Contract generated from the documentation by API Evangelist (2026-11-01); not…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Appendix Com Webhooks](https://apis.io/asyncapis/appendix-com/appendix-com-webhooks/)
+
+#### JSON Schema (12)
+
+The data models the API reads and writes.
+
+- [GetApiV1AgentEncountersEncounteridEventsResponse](https://apis.io/schemas/appendix-com/appendix-com-get-api-v1-agent-encounters-encounterid-events-response/)
+- [GetApiV1PatientsResponse](https://apis.io/schemas/appendix-com/appendix-com-get-api-v1-patients-response/)
+- [GetApiV1PrescribingEncountersIdDetailsResponse](https://apis.io/schemas/appendix-com/appendix-com-get-api-v1-prescribing-encounters-id-details-response/)
+- [GetApiV1PrescribingPatientsIdResponse](https://apis.io/schemas/appendix-com/appendix-com-get-api-v1-prescribing-patients-id-response/)
+- [GetApiV1UsersMeApiKeysResponse](https://apis.io/schemas/appendix-com/appendix-com-get-api-v1-users-me-api-keys-response/)
+- [GetApiV1UsersMeResponse](https://apis.io/schemas/appendix-com/appendix-com-get-api-v1-users-me-response/)
+- [PostApiV1PrescribingPatientsRequest](https://apis.io/schemas/appendix-com/appendix-com-post-api-v1-prescribing-patients-request/)
+- [PostApiV1PrescribingSandboxEncountersB1A2AdvanceResponse](https://apis.io/schemas/appendix-com/appendix-com-post-api-v1-prescribing-sandbox-encounters-b1-a2-advance-response/)
+- [PostApiV1UsersMeApiKeysRequest](https://apis.io/schemas/appendix-com/appendix-com-post-api-v1-users-me-api-keys-request/)
+- [PostApiV1UsersMeApiKeysResponse](https://apis.io/schemas/appendix-com/appendix-com-post-api-v1-users-me-api-keys-response/)
+- [PostPrescribingEncountersIdMessagesResponse](https://apis.io/schemas/appendix-com/appendix-com-post-prescribing-encounters-id-messages-response/)
+- [PostPrescribingQueryResponse](https://apis.io/schemas/appendix-com/appendix-com-post-prescribing-query-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Appendix Com Context](https://apis.io/jsonld/appendix-com/appendix-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Appendix API Rules](https://apis.io/rules/appendix-com/appendix-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Appendix Com Authentication](https://apis.io/security/appendix-com/appendix-com-authentication/)
+- [Appendix Com Domain Security](https://apis.io/security/appendix-com/appendix-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Appendix Com Plans Pricing](https://apis.io/plans/appendix-com/appendix-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://appendix.com/)
+- [Documentation](https://appendix.com/docs)
+- [Getting started](https://appendix.com/docs/prescribing-api/quickstart)
+- [API reference](https://appendix.com/docs/api-reference/chat)
+- [Pricing](https://appendix.com/pricing)
+- [Terms of service](https://appendix.com/terms-of-service)
+- [Privacy policy](https://appendix.com/privacy-policy)
+- [GitHub](https://github.com/appendixhealth)
+
+## API Evangelist rating
+
+**Kin Score 56.8** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 62.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 60.0 |
+
+**Agent readiness 26.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 18.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/appendix-com/](https://apis.io/providers/appendix-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Appendix: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/appendix-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
